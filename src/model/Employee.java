@@ -12,17 +12,16 @@ public class Employee {
 	private String employmentStatus;
 	
 // constructor 
-public Employee(int employeeID, String employeeName, int age, String phoneNumber, String email, String jobTitle,
-		double salary, String employeeStatus) {
-	super();
-	this.employeeID = employeeID;
-	this.employeeName = employeeName;
-	this.age = age;
-	this.phoneNumber = phoneNumber;
-	this.email = email;
-	this.jobTitle = jobTitle;
-	this.salary = salary;
-	this.employmentStatus = employeeStatus;
+ public Employee(int employeeID, String employeeName, int age, String phoneNumber, String email, String jobTitle, double salary, String employmentStatus) {   
+ super();
+	        this.employeeID = employeeID;
+	        this.employeeName = employeeName;
+	        this.age = age;
+	        this.phoneNumber = phoneNumber;
+	        this.email = email;
+	        this.jobTitle = jobTitle;
+	        this.salary = salary;
+	        this.employmentStatus = employmentStatus;
 }
 // methods
 public void displayEmployee() {
